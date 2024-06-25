@@ -1,0 +1,155 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.body-results{
+    background-color: rgb(100, 65, 253);
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+}
+
+.num{
+    text-align: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(69, 41, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    margin-top: 3rem;
+}
+.nums{
+    text-align: center;
+    width: 300px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+h1{
+    color: rgb(254, 252, 255);
+    font-weight: bolder;
+}
+.great{
+    color: rgb(195, 189, 197);
+}
+.you{
+    color: rgb(203, 195, 255); 
+    font-weight: 500px;
+}
+.summ{
+    background-color:white;
+    width: 400px;
+    box-shadow: 0.5px 0.5px rgb(107, 105, 105);
+    margin-left: 16px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#icon-reaction{
+    background-color:rgb(255, 246, 245);
+}
+#icon-memeory{
+    background: rgb(255, 251, 242);
+}
+#icon-verbal{
+    background-color: rgb(242, 251, 250);
+}
+#icn-visual{
+    background-color: rgb(243, 243, 253);
+}
+
+.reaction{
+    color:brown;
+    margin-left: 10px;
+}
+.sp{
+    font-weight: bold;
+    margin-left: 6rem;
+}
+span{
+    color: rgb(162, 157, 164);
+
+}
+#memory{
+    color:rgb(240, 201, 134);
+}
+#verbal{
+    color: rgb(57, 171, 142);
+}
+#visual{
+    color: rgb(34, 45, 152);
+}
+.btn{
+    background-color: rgb(48, 59, 89);
+    padding: 1rem 2rem;
+    margin-top: 8rem;
+    width: 300px;
+    border-radius: 16px;
+    color: white;
+    box-shadow: none;
+    text-decoration: none;
+    border: none;
+}
+@media screen and (max-width: 790px) {
+    .body-results{
+        width: 350px;
+    }
+    .num{
+        height: 180px;
+        width: 180px;
+    }
+    .you{
+        color: rgb(203, 195, 255); 
+        font-weight: 300px;
+    }
+    .summ{
+        width: 350px;
+    }
+    .icon{
+        width: 250px;
+    }
+    .btn{
+        width: 250px;
+    }
+
+  }
+  @media screen and (max-width: 400px) {
+    .body{
+        display: block;
+        width:300px ;
+    }
+    .body-results{
+        width: 350px;
+    }
+    .num{
+        height: 180px;
+        width: 180px;
+    }
+    .you{
+        color: rgb(203, 195, 255); 
+        font-weight: 300px;
+    }
+    .summ{
+        width: 350px;
+    }
+    .icon{
+        width: 250px;
+    }
+    .btn{
+        width: 250px;
+    }
+
+  }
